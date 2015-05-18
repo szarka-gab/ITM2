@@ -6,18 +6,21 @@ package itm.audio;
 *******************************************************************************/
 
 
+
+
+
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioFormat.Encoding;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import javax.sound.sampled.DataLine;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.SourceDataLine;
 
 /**
  * 
@@ -111,6 +114,17 @@ public class AudioThumbGenerator {
 	 *            a reference to the output directory
 	 * @throws UnsupportedAudioFileException 
 	 */
+	
+	public static AudioInputStream cutAudio(AudioInputStream audio, int length) {
+		AudioFormat format = null;
+		long frames_to_write;
+
+		format = audio.getFormat();
+		frames_to_write = length * (int) format.getFrameRate();
+
+		return new AudioInputStream(audio, format, frames_to_write);
+	}
+	
 	protected File processAudio(File input, File output) throws IOException,
 			IllegalArgumentException, UnsupportedAudioFileException {
 		if (!input.exists())
@@ -129,29 +143,61 @@ public class AudioThumbGenerator {
 		// Fill in your code here!
 		// ***************************************************************
 
-		// load the input audio file
-		 
-			AudioInputStream in = AudioSystem.getAudioInputStream(input);
 		
+		// get audio
+		AudioInputStream in = AudioSystem.getAudioInputStream(input);
+		
+		//get format
+		AudioFormat format = in.getFormat();
+		
+		// decoded format and created a new one
+		AudioFormat decoded_format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED,
+				format.getSampleRate(), 16,
+				format.getChannels(), format.getChannels() * 2,
+				format.getSampleRate(), false);
 
-		
+		// new AudioInputStream with decoded format
+		in = AudioSystem.getAudioInputStream(decoded_format, in);
 
 		// cut the audio data in the stream to a given length
-		int startSecond=0;
+		int length = this.thumbNailLength;
 		
-		  AudioFileFormat fileFormat = AudioSystem.getAudioFileFormat(input);
-		  AudioFormat format = fileFormat.getFormat();
-		 AudioInputStream inputStream = AudioSystem.getAudioInputStream(input);
-		 System.out.println(format.getFrameRate());
-		 
-		  int bytesPerSecond = format.getFrameSize() *(int)format.getFrameRate();
-		  inputStream.skip(startSecond * bytesPerSecond);
-		  long framesOfAudioToCopy = thumbNailLength * (int)format.getFrameRate();
-		  AudioInputStream shortenedStream = new AudioInputStream(inputStream, format, framesOfAudioToCopy);
-		  AudioSystem.write(shortenedStream, AudioFileFormat.Type.WAVE, outputFile);
+		// frames to write
+		long frames_to_write;
+
+		// get format from din
+		format = in.getFormat();
 		
-		 
-		// save the acoustic thumbnail as WAV file
+		frames_to_write = length * (int) format.getFrameRate();
+		AudioInputStream newAudio = new AudioInputStream (in, format, frames_to_write);
+		
+		
+		// this somehow works for ogg file, I have no idea why, they dont have it in the stackoverflow either. 
+
+		
+		File tempFile = new File(output, input.getName() + ".tmp");
+        FileOutputStream tempFOS = new FileOutputStream(tempFile); 
+        
+        byte[] buffer = new byte[4096];
+        
+        // number of bytes read
+        int n; 
+        
+        while ((n = newAudio.read(buffer)) != -1) {
+            tempFOS.write(buffer, 0, n);
+        }
+        
+        tempFOS.close();
+        
+        // set the new AudioInputStream
+        AudioInputStream tempAIS = new AudioInputStream(new FileInputStream(tempFile), newAudio.getFormat(), newAudio.getFrameLength());
+        
+        //Delete temp file
+        tempFile.delete();
+		
+		
+        // save the acoustic thumbnail as WAV file
+		AudioSystem.write(tempAIS, AudioFileFormat.Type.WAVE, outputFile);
 
 		return outputFile;
 	}
@@ -162,7 +208,7 @@ public class AudioThumbGenerator {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		//args = new String[]{"./media/audio/", "./test", "10"};
+		//args = new String[]{"./media/audio", "./test", "10"};
 		
 		if (args.length < 3) {
 			System.out

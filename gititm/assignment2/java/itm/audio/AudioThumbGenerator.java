@@ -171,8 +171,8 @@ public class AudioThumbGenerator {
 		frames_to_write = length * (int) format.getFrameRate();
 		AudioInputStream newAudio = new AudioInputStream (in, format, frames_to_write);
 		
+		//works for ogg files
 		
-		// this somehow works for ogg file, I have no idea why, they dont have it in the stackoverflow either. 
 
 		
 		File tempFile = new File(output, input.getName() + ".tmp");

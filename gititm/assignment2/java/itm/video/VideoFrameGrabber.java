@@ -135,12 +135,14 @@ public class VideoFrameGrabber {
 						streamIndex = stream.getIndex();
 						break;
 					}
-				}
+		}
+		
 		//open coder
 				
 		if (coder.open() < 0) {
 			throw new RuntimeException("Could not open coder");
 		}
+		
 		//create Resampler
 		
 		IVideoResampler.make(coder.getWidth(), coder.getHeight(), IPixelFormat.Type.BGR24, coder.getWidth(), coder.getHeight(), coder.getPixelType());
@@ -171,7 +173,7 @@ public class VideoFrameGrabber {
 						ImageIO.write(img, "jpg", outputFile);
 					
 						break;
-				}
+					}
 			}
 		}
 		

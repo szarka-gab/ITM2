@@ -17,10 +17,6 @@ import java.util.Date;
 
 public class AudioMedia extends AbstractMedia {
 
-	// ***************************************************************
-	// Fill in your code here!
-	// ***************************************************************
-
 	protected String encoding = "n.a";
 	protected long duration;
 	protected String author = "n.a";
@@ -48,10 +44,6 @@ public class AudioMedia extends AbstractMedia {
 	public AudioMedia(File instance) {
 		super(instance);
 	}
-
-	// ***************************************************************
-	// Fill in your code here!
-	// ***************************************************************
 
 	/* GET / SET methods */
 	public String getEncoding() {
@@ -93,9 +85,7 @@ public class AudioMedia extends AbstractMedia {
 	public void setDate(String date) {
 		try {
 			this.date = new SimpleDateFormat("yyyy").parse(date);
-		} catch (ParseException e) {
-			// do nothing
-		}
+		} catch (ParseException e) {}
 	}
 
 	public String getComment() {
@@ -176,9 +166,6 @@ public class AudioMedia extends AbstractMedia {
 		StringBuffer sup = super.serializeObject();
 		out.print(sup);
 
-		// ***************************************************************
-		// Fill in your code here!
-		// ***************************************************************
 
 		out.println("encoding: " + this.encoding);
 		out.println("author: " + this.author);
@@ -194,9 +181,7 @@ public class AudioMedia extends AbstractMedia {
 		
 		try {
 			out.println("date: " + new SimpleDateFormat("yyyy").format(this.date));
-		} catch (Exception e) {
-			// do nothing
-		}
+		} catch (Exception e){}
 		
 		return data.getBuffer();
 	}
@@ -216,9 +201,6 @@ public class AudioMedia extends AbstractMedia {
 
 		while ((line = br.readLine()) != null) {
 
-			// ***************************************************************
-			// Fill in your code here!
-			// ***************************************************************
 
 			if (line.startsWith("encoding: ")) {
 				this.setEncoding(line.substring("encoding: ".length()));

@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b17barb026_dithered.gif
+name: b17barb026_dithered.gif
+size: 323483 bytes (323kB)
+tags: image,gif,red,
+Width: 1024
+Height: 768
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 8
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

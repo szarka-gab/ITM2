@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/blue_sky5m.JPG
+name: blue_sky5m.JPG
+size: 43083 bytes (43kB)
+tags: image,JPG,blue,
+Width: 800
+Height: 532
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

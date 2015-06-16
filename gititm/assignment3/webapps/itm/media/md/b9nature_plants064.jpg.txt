@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b9nature_plants064.jpg
+name: b9nature_plants064.jpg
+size: 284756 bytes (284kB)
+tags: image,jpg,green,
+Width: 2560
+Height: 1920
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

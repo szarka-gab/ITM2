@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b20nature_plants245.jpg
+name: b20nature_plants245.jpg
+size: 1577295 bytes (1577kB)
+tags: image,jpg,blue,
+Width: 1920
+Height: 2560
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_PORTRAIT

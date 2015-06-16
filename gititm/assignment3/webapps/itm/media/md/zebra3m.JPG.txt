@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/zebra3m.JPG
+name: zebra3m.JPG
+size: 100585 bytes (100kB)
+tags: image,JPG,red,
+Width: 800
+Height: 532
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

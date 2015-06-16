@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/the_real_firefox_dithered.bmp
+name: the_real_firefox_dithered.bmp
+size: 88778 bytes (88kB)
+tags: image,bmp,green,
+Width: 513
+Height: 341
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 4
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_PORTRAIT

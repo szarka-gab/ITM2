@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b1murene.gif
+name: b1murene.gif
+size: 95967 bytes (95kB)
+tags: image,gif,red,
+Width: 500
+Height: 333
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 8
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

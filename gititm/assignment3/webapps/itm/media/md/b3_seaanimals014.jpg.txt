@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b3_seaanimals014.jpg
+name: b3_seaanimals014.jpg
+size: 387587 bytes (387kB)
+tags: image,jpg,green,
+Width: 1600
+Height: 1200
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

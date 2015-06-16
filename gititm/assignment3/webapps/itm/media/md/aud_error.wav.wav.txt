@@ -1,0 +1,16 @@
+type: audio
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/audio/error.wav.wav
+name: error.wav.wav
+size: 288044 bytes (288kB)
+tags: audio,
+encoding: PCM_SIGNED
+author: n.a
+title: n.a
+comment: n.a
+album: n.a
+track: n.a
+composer: n.a
+genre: n.a
+frequency: 44100.0
+bitrate: 0
+channels: 1

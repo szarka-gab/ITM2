@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/elephant14m.png
+name: elephant14m.png
+size: 117972 bytes (117kB)
+tags: image,png,red,green,blue,
+Width: 532
+Height: 800
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 4
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_PORTRAIT

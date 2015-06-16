@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b17barb026.jpg
+name: b17barb026.jpg
+size: 261328 bytes (261kB)
+tags: image,jpg,red,
+Width: 1024
+Height: 768
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

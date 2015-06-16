@@ -1,0 +1,16 @@
+type: video
+file: C:\Users\Gabriel\Desktop\ITMGIT\ITM2\gititm\assignment2\media\video\panda.avi
+name: panda.avi
+size: 2473984 bytes (2473kB)
+tags: video,
+videoCodec: cinepak
+videoCodecID: CODEC_ID_CINEPAK
+videoFrameRate: 25/1
+videoLength: 4
+videoHeight: 288
+videoWidth: 352
+audioCodec: mp3
+audioCodecID: CODEC_ID_MP3
+audioChannels: 2
+audioSampleRate: 44100000
+audioBitRate: 192

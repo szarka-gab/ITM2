@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/picture_of_goat11.JPG
+name: picture_of_goat11.JPG
+size: 251126 bytes (251kB)
+tags: image,JPG,red,
+Width: 1024
+Height: 681
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

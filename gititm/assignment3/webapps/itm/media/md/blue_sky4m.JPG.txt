@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/blue_sky4m.JPG
+name: blue_sky4m.JPG
+size: 34711 bytes (34kB)
+tags: image,JPG,blue,
+Width: 532
+Height: 800
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_PORTRAIT

@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/peafowl_picture1.JPG
+name: peafowl_picture1.JPG
+size: 410113 bytes (410kB)
+tags: image,JPG,red,
+Width: 680
+Height: 1024
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_PORTRAIT

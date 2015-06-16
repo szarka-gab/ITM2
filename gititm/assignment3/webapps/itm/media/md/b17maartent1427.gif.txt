@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b17maartent1427.gif
+name: b17maartent1427.gif
+size: 5622 bytes (5kB)
+tags: image,gif,green,
+Width: 50
+Height: 38
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 8
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

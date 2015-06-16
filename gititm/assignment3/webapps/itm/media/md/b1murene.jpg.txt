@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b1murene.jpg
+name: b1murene.jpg
+size: 289333 bytes (289kB)
+tags: image,jpg,red,
+Width: 1862
+Height: 1241
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

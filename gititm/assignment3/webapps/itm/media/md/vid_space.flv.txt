@@ -1,0 +1,16 @@
+type: video
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/video/space.flv
+name: space.flv
+size: 362803 bytes (362kB)
+tags: video,
+videoCodec: theora
+videoCodecID: CODEC_ID_THEORA
+videoFrameRate: 2997/100
+videoLength: 9
+videoHeight: 240
+videoWidth: 320
+audioCodec: vorbis
+audioCodecID: CODEC_ID_VORBIS
+audioChannels: 2
+audioSampleRate: 44100000
+audioBitRate: 80

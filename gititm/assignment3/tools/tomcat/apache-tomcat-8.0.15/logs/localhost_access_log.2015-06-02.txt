@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:58 +0200] "GET /itm/media/md/picture_of_coati.JPG.hist.png HTTP/1.1" 200 39160
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:58 +0200] "GET /itm/media/md/picture_of_coati.JPG.thumb.png HTTP/1.1" 200 5401
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:58 +0200] "GET /itm/media/md/the_real_firefox.png.hist.png HTTP/1.1" 200 15997
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:58 +0200] "GET /itm/media/md/the_real_firefox.png.thumb.png HTTP/1.1" 200 6545
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:58 +0200] "GET /itm/media/md/zebra3m.JPG.hist.png HTTP/1.1" 200 27065
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:00:11:59 +0200] "GET /itm/media/md/zebra3m.JPG.thumb.png HTTP/1.1" 200 7236
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:15:16:15 +0200] "GET /itm/media/md/zebra3m.JPG.hist.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jun/2015:15:16:15 +0200] "GET /itm/media/md/zebra3m.JPG.thumb.png HTTP/1.1" 304 -

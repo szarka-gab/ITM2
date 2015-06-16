@@ -1,0 +1,17 @@
+type: audio
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/audio/Epoq-Lepidoptera.ogg
+name: Epoq-Lepidoptera.ogg
+size: 4357992 bytes (4357kB)
+tags: audio,
+encoding: VORBISENC
+author: Epoq
+title: Lepidoptera
+comment: http://www.kahvi.org
+album: Kahvi Collective
+track: n.a
+composer: n.a
+genre: n.a
+frequency: 44100.0
+bitrate: 128003
+channels: 2
+date: 2002

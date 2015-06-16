@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/b1shell008.jpg
+name: b1shell008.jpg
+size: 169426 bytes (169kB)
+tags: image,jpg,red,
+Width: 1341
+Height: 1023
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE

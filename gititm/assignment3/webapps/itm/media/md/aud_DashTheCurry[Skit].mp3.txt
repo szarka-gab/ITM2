@@ -1,0 +1,17 @@
+type: audio
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/audio/DashTheCurry[Skit].mp3
+name: DashTheCurry[Skit].mp3
+size: 805761 bytes (805kB)
+tags: audio,
+encoding: MPEG1L3
+author: M.I.A.
+title: Dash The Curry [Skit]
+comment: TunNORM
+album: Arular
+track: 6/13
+composer: Maya Arulpragasam
+genre: Hip Hop/Rap
+frequency: 44100.0
+bitrate: 160000
+channels: 2
+date: 2005

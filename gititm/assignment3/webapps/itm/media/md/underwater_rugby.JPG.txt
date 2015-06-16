@@ -1,0 +1,13 @@
+type: image
+file: /Users/mac/Downloads/assignment3/webapps/itm/media/img/underwater_rugby.JPG
+name: underwater_rugby.JPG
+size: 114081 bytes (114kB)
+tags: image,JPG,green,
+Width: 1024
+Height: 768
+Number of image components: 0
+Number of color components: 3
+Transparency: 1
+Pixelsize: 24
+Color space type: TYPE_RGB
+Orientation: ORIENTATION_LANDSCAPE
